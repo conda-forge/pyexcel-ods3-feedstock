@@ -1,6 +1,6 @@
 {% set name = "pyexcel-ods3" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "3414ca7393b81c53bce4d57a1ee56ab560b9656b5bc3dad6bec694f98bfab4ea" %}
+{% set version = "0.5.3" %}
+{% set sha256 = "3e5f8687a54a1b50d7327145cf4b777a16d9e074370bb24a1193d22cca312e76" %}
 
 package:
   name: {{ name|lower }}
