@@ -1,6 +1,6 @@
 {% set name = "pyexcel-ods3" %}
-{% set version = "0.5.3" %}
-{% set sha256 = "3e5f8687a54a1b50d7327145cf4b777a16d9e074370bb24a1193d22cca312e76" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "eda986eedcb90386907dd65ea2e9f5ff7387a8848cd6c16d9d6762523c560346" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
@@ -37,7 +37,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A wrapper library to read, manipulate and write data in xls using xlrd and xlwt'
+  summary: A wrapper library to read, manipulate and write data in xls using xlrd and xlwt
   description: |
     'A wrapper library to read, manipulate and write data in ods format' +
     ''
