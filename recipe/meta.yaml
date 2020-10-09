@@ -24,7 +24,7 @@ requirements:
 
   run:
     - python
-    - pyexcel-io >=0.5.0
+    - pyexcel-io >=0.6.2
     - lxml
     - pyexcel-ezodf >=0.3.3
 
