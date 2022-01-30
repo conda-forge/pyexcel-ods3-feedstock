@@ -1,6 +1,6 @@
 {% set name = "pyexcel-ods3" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "eda986eedcb90386907dd65ea2e9f5ff7387a8848cd6c16d9d6762523c560346" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "53740fc9bc6e91e43cdc0ee4f557bb3b252d8493d34f2c11d26a93c53cfebc2e" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
-  build:
+  host:
     - pip
     - python
     - setuptools
